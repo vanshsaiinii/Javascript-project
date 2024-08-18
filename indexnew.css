@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+body {
+    background-image: url(1.jpg);
+    background-size: cover;
+    font-family: poppins;
+}
+.navnew{
+    background-color: transparent;
+    height: max-content;
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+justify-content: center;
+}
+.navnew h1{
+    font-size: 97px;
+    color: white;
+    letter-spacing: 16px;
+    font-family: poppins;
+    font-weight: 100;
+}
+
+.navnew h3{
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  right: 4%;
+  border: 10%;
+  bottom: 3%;
+  font-size: 57px;
+  font-weight: 100;
+  color: white;
+}
+
+.logonew img{
+    width: 168px;
+}
+
+  @media (max-width: 900px) {
+
+    .navnew{
+        display: inline-block;
+        border-bottom: 2px solid white;
+    }
+    .navnew h1{
+        font-size: 35px;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+
+        .logonew{
+            display: flex;
+    justify-content: center;
+        }
+
+      
+        
+  }
+  .fill{
+    display: flex;
+    margin: 10px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position:absolute;
+    top: 40%;
+  }
+  .main{
+    background-color: white;
+    height: 113px;
+    width: 190px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .main img{
+    object-fit: cover;
+    width: 191px;
+    overflow: hidden;
+    height: 115px;
+    
+    
+}
+ 
+
+
+.main h1  {
+  z-index: 0;
+  color: black;
+  position: absolute;
+  top: 0%;
+  font-size: 93px;
+  font-family: -webkit-body;
+  background: grey;
+  width: 100%;
+  height: 100%;
+  /* padding-left: 119px; */
+  text-align: center;
+  opacity: 50%;
+  display: block;
+  visibility: visible;
+}
+  
+  .big-main{
+    height: 700px;
+    width: 50vw;
+    background-color: antiquewhite;
+    transition: all 1s ease-in-out;
+  }
+  .mainfill{
+    display: flex;
+    justify-content:center ;
+  }
+  .ross{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    border: none;
+  }
+ 
+  
+  .project1box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .project2box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project3box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project4box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project5box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project6box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project7box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project8box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project9box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project10box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project11box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project12box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project13box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+  .project14box{
+    height: 524px;
+    width: 73vw;
+    background-color: white;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    margin: 18px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+  }
+
+ .showbox{
+    visibility: visible;
+    display:flex;
+  }
+  .small-main{
+height: 450px;
+width: 70vw;
+border: 1px solid grey;
+POSITION: absolute;
+    top: 9%;
+    overflow: scroll;
+  }
+
+
+
+ 
